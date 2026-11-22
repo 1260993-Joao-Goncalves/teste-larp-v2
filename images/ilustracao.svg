@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 400" role="img" aria-label="Computador portátil e telemóvel com a interface do produto">
+  <!-- Fundo -->
+  <circle cx="270" cy="200" r="180" fill="#e6eff3"/>
+  <circle cx="420" cy="80" r="26" fill="#269B78" opacity="0.9"/>
+
+  <!-- Portátil: ecrã -->
+  <rect x="70" y="80" width="330" height="210" rx="14" fill="#123c52"/>
+  <rect x="84" y="94" width="302" height="182" rx="6" fill="#ffffff"/>
+  <!-- Barra superior da app -->
+  <rect x="84" y="94" width="302" height="26" rx="6" fill="#dbe7ec"/>
+  <circle cx="100" cy="107" r="4" fill="#269B78"/>
+  <circle cx="114" cy="107" r="4" fill="#9fb6c1"/>
+  <circle cx="128" cy="107" r="4" fill="#9fb6c1"/>
+  <!-- Menu lateral -->
+  <rect x="96" y="132" width="60" height="10" rx="5" fill="#123c52"/>
+  <rect x="96" y="152" width="48" height="8" rx="4" fill="#c4d3da"/>
+  <rect x="96" y="168" width="54" height="8" rx="4" fill="#c4d3da"/>
+  <rect x="96" y="184" width="42" height="8" rx="4" fill="#c4d3da"/>
+  <!-- Gráfico de barras -->
+  <rect x="176" y="132" width="196" height="96" rx="6" fill="#f3f7f9"/>
+  <rect x="192" y="190" width="20" height="28" rx="3" fill="#9fb6c1"/>
+  <rect x="222" y="172" width="20" height="46" rx="3" fill="#9fb6c1"/>
+  <rect x="252" y="182" width="20" height="36" rx="3" fill="#9fb6c1"/>
+  <rect x="282" y="156" width="20" height="62" rx="3" fill="#123c52"/>
+  <rect x="312" y="146" width="20" height="72" rx="3" fill="#269B78"/>
+  <!-- Linhas de texto -->
+  <rect x="176" y="240" width="120" height="8" rx="4" fill="#c4d3da"/>
+  <rect x="176" y="256" width="90" height="8" rx="4" fill="#dbe7ec"/>
+  <!-- Portátil: base -->
+  <path d="M40 300 h390 l-20 22 h-350 z" fill="#0c2a3a"/>
+  <rect x="200" y="300" width="70" height="6" rx="3" fill="#2d566b"/>
+
+  <!-- Telemóvel -->
+  <rect x="370" y="160" width="100" height="190" rx="16" fill="#0c2a3a"/>
+  <rect x="380" y="174" width="80" height="160" rx="8" fill="#ffffff"/>
+  <rect x="404" y="166" width="32" height="4" rx="2" fill="#2d566b"/>
+  <rect x="390" y="186" width="44" height="8" rx="4" fill="#123c52"/>
+  <rect x="390" y="204" width="60" height="44" rx="6" fill="#f3f7f9"/>
+  <path d="M396 238 l12 -12 l10 6 l14 -16 l12 8" fill="none" stroke="#269B78" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="390" y="258" width="60" height="8" rx="4" fill="#c4d3da"/>
+  <rect x="390" y="274" width="46" height="8" rx="4" fill="#dbe7ec"/>
+  <rect x="390" y="298" width="60" height="22" rx="11" fill="#269B78"/>
+</svg>

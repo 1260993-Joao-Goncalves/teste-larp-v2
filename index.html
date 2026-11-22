@@ -4,24 +4,29 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Uni!Study | LAPR1 – Os Jaronas DAB01</title>
-  <meta name="description" content="Uni!Study — uma aplicação que te acompanha no ensino superior. Projeto LAPR1 da equipa DAB01 – ISEP.">
+  <meta name="description" content="Página do projeto LAPR1 da equipa DAB01 – ISEP.">
+
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Source+Sans+3:wght@400;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=Source+Sans+3:wght@400;600&display=swap" rel="stylesheet">
+
   <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
-  <header class="site-header">
-    <div class="container header-inner">
-      <a class="brand" href="#inicio" aria-label="Uni!Study — início">
-        <img src="images/App-logo.png" alt="Logótipo Uni!Study" class="brand-logo">
-        <span class="brand-name">Uni<span>!</span>Study</span>
+
+  <header class="cabecalho">
+    <div class="contentor cabecalho-interior">
+      <a class="marca" href="#inicio">
+        <img src="images/App-logo.png" alt="Logótipo Uni!Study" class="logo-isep" style="width: 150px; height: auto;">
+        <span class="marca-nome">Uni!Study</span>
       </a>
       <nav aria-label="Menu principal">
-        <ul class="nav-links">
-          <li><a href="#objetivos">O projeto</a></li>
+        <ul class="menu">
+          <li><a href="#objetivos">Objetivos</a></li>
           <li><a href="#caracteristicas">Características</a></li>
-          <li><a href="equipa.html">Equipa</a></li>
+          <li><a href="#destinatarios">Público</a></li>
+          <li><a href="#equipa">Equipa</a></li>
           <li><a href="#fontes">Fontes</a></li>
         </ul>
       </nav>
@@ -29,72 +34,145 @@
   </header>
 
   <main id="inicio">
-    <section class="hero">
-      <div class="hero-glow glow-one"></div><div class="hero-glow glow-two"></div>
-      <div class="container hero-grid">
-        <div class="hero-copy">
-          <p class="eyebrow"><span class="eyebrow-dot"></span> Projeto LAPR1 · Os Jaronas</p>
-          <h1>Estuda melhor.<br><span>Vive o teu ritmo.</span></h1>
-          <p class="hero-description">Uma aplicação que te acompanha no ensino superior e ajuda a transformar objetivos em hábitos de estudo.</p>
-          <div class="hero-actions">
-            <a class="button button-primary" href="aplicacao.html">Conhecer a Uni!Study <span aria-hidden="true">→</span></a>
-          </div>
-          <div class="hero-note"><span class="note-icon">✦</span> Organiza. Aprende. Evolui.</div>
-        </div>
-        <div class="hero-art" aria-label="Ilustração da aplicação Uni!Study">
-          <div class="art-orbit orbit-a"></div><div class="art-orbit orbit-b"></div>
-          <div class="floating-chip chip-top"><span class="chip-icon">✓</span> Plano organizado</div>
-          <div class="app-preview">
-            <div class="preview-top"><div class="preview-brand"><span class="mini-mark">U!</span> Uni!Study</div><span class="preview-avatar">JS</span></div>
-            <div class="preview-welcome"><small>SEGUNDA-FEIRA, 16 DE NOVEMBRO</small><h3>Olá, estudante! 👋</h3><p>Vamos preparar a tua semana.</p></div>
-            <div class="preview-card progress-card"><div class="progress-head"><span>Progresso semanal</span><strong>72%</strong></div><div class="progress-track"><span></span></div><small>Estás no bom caminho!</small></div>
-            <div class="preview-lower"><div class="preview-card task-card"><div class="task-heading">Próxima sessão <span>•••</span></div><div class="task-row"><span class="task-symbol">∑</span><div><strong>Matemática</strong><small>Exercícios · 45 min</small></div></div><div class="task-row"><span class="task-symbol purple">▤</span><div><strong>Programação</strong><small>Revisão · 30 min</small></div></div></div><div class="preview-card week-card"><small>Esta semana</small><div class="week-bars"><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div><div class="week-days"><span>S</span><span>T</span><span>Q</span><span>Q</span><span>S</span><span>S</span><span>D</span></div></div></div>
-          </div>
-          <div class="floating-chip chip-bottom"><span class="chip-icon purple-chip">✦</span> O teu plano, à tua medida</div>
-        </div>
-      </div>
-      <div class="hero-bottom"><div class="container hero-bottom-inner"><span>Uma solução pensada para os estudantes universitários</span><span class="scroll-hint">Explora o projeto <span aria-hidden="true">↓</span></span></div></div>
-    </section>
 
-    <section id="objetivos" class="section section-light">
-      <div class="container">
-        <div class="section-heading"><p class="section-kicker">01 · A nossa proposta</p><h2>Mais organização.<br><span>Menos sobrecarga.</span></h2><p class="section-lead">A Uni!Study nasce para tornar a vida académica mais simples, ajudando cada estudante a gerir o tempo e a preparar-se para os desafios do semestre.</p></div>
-        <div class="info-grid">
-          <article class="info-card context-card"><div class="card-icon icon-blue">◉</div><p class="card-label">O contexto</p><h3>Um desafio real</h3><ul><li>A falta de métodos de estudo adequados pode levar à acumulação de matéria e a dificuldades na gestão do tempo.</li><li>Os estudantes do ensino superior são diretamente afetados, tornando esta proposta relevante para o seu desempenho académico.</li></ul></article>
-          <article class="info-card goals-card"><div class="card-icon icon-violet">✧</div><p class="card-label">Os objetivos</p><h3>Uma rotina mais equilibrada</h3><ul><li>Orientar o estudante ao longo do semestre.</li><li>Otimizar o estudo tendo em conta as avaliações e a disponibilidade real.</li><li>Reduzir a acumulação de trabalho e o stress.</li></ul></article>
-          <article class="info-card services-card"><div class="card-icon icon-teal">▦</div><p class="card-label">Os serviços</p><h3>Tudo num só lugar</h3><ul><li>Materiais de estudo: resumos, testes e exames de anos anteriores.</li><li>Calendário de avaliações e planos de estudo com sessões.</li><li>Estatísticas de estudo e acompanhamento do progresso.</li></ul></article>
+    <section class="intro">
+      <div class="contentor intro-grelha">
+        <div class="intro-texto">
+          <p class="intro-projeto">Projeto LAPR1 · Os Jaronas</p>
+          <h1>Uni!Study</h1>
+          <p class="intro-frase">
+            Uma aplicação que te acompanha no ensino superior.
+          </p>
+          <a class="botao" href="#objetivos">Conhecer o produto</a>
         </div>
+        <img class="intro-imagem" src="images/ilustracao.svg"
+             alt="Ilustração do produto: ecrã de computador e telemóvel com a interface da aplicação">
       </div>
     </section>
 
-    <section id="caracteristicas" class="section features-section">
-      <div class="container">
-        <div class="section-heading heading-center"><p class="section-kicker">02 · Feito para ti</p><h2>O que torna a <span>Uni!Study</span> especial?</h2><p class="section-lead">Ferramentas que se adaptam à tua rotina e te ajudam a estudar com mais confiança.</p></div>
-        <div class="features-grid">
-          <article class="feature-card"><div class="feature-icon">◷</div><h3>Eficaz</h3><p>Tempo de espera reduzido nos serviços disponíveis, para que te possas concentrar no que importa.</p></article>
-          <article class="feature-card"><div class="feature-icon">▣</div><h3>Acessibilidade</h3><p>Disponível em vários dispositivos, para acompanhares o teu estudo onde estiveres.</p></article>
-          <article class="feature-card"><div class="feature-icon">⌁</div><h3>Funcionalidades únicas</h3><p>Acesso a materiais de estudo e planeamentos personalizados num só espaço.</p></article>
-          <article class="feature-card"><div class="feature-icon">▦</div><h3>Flexibilidade</h3><p>Planos de estudo adaptados às tuas necessidades, dificuldades e disponibilidade.</p></article>
+    <section id="objetivos" class="seccao">
+      <div class="contentor">
+        <h2>Objetivos, contexto e serviços</h2>
+
+        <div class="tres-colunas">
+          <article class="bloco">
+            <h3>Contexto</h3>
+            <ul>
+              <li>A ausência de métodos adequados contribui para a acumulação de matéria e dificuldades na gestão do tempo.</li>
+              <li>Os estudantes são os principais afetados. Esta proposta é relevante no ensino superior porque tem impacto direto no desempenho académico.</li>
+            </ul>
+          </article>
+
+          <article class="bloco">
+            <h3>Objetivos</h3>
+            <ul>
+              <li>Orientar o estudante ao longo do semestre.</li>
+              <li>Otimizar o estudo de acordo com as avaliações e a disponibilidade real.</li>
+              <li>Reduzir a acumulação de trabalho e o stress.</li>
+            </ul>
+          </article>
+
+          <article class="bloco">
+            <h3>Serviços</h3>
+            <ul>
+              <li>Materiais de estudo: pastas com resumos, testes e exames de anos passados.</li>
+              <li>Calendário e planos: calendário com as avaliações e geração automática de um plano de estudo com sessões.</li>
+              <li>Acompanhamento do progresso: estatísticas de estudo e avaliações.</li>
+            </ul>
+          </article>
         </div>
-        <div class="audience-banner"><div class="audience-symbol">✦</div><div><p class="card-label">Para quem?</p><h3>O teu percurso. O teu ritmo.</h3><p>Destina-se aos estudantes universitários, desde quem está no primeiro ano a quem procura melhorar a sua organização e gestão dos estudos.</p></div><div class="audience-decoration">Uni!<br><span>Study</span></div></div>
       </div>
     </section>
+
+    <section id="caracteristicas" class="seccao seccao-escura">
+      <div class="contentor">
+        <h2>Características principais</h2>
+
+        <div class="caracteristicas">
+          <article class="caracteristica">
+            <svg class="icone" viewBox="0 0 24 24" aria-hidden="true">
+              <path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20zm0 4v6l4 2" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+            </svg>
+            <h3>Eficaz</h3>
+            <p>Acesso rápido ao que precisas para estudar sem perder tempo a organizar tudo do zero.</p>
+          </article>
+
+          <article class="caracteristica">
+            <svg class="icone" viewBox="0 0 24 24" aria-hidden="true">
+              <rect x="6" y="2" width="12" height="20" rx="2" fill="none" stroke="currentColor" stroke-width="2"/>
+              <path d="M11 18h2" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+            </svg>
+            <h3>Acessibilidade</h3>
+            <p>Disponível em vários dispositivos.</p>
+          </article>
+
+          <article class="caracteristica">
+            <svg class="icone" viewBox="0 0 24 24" aria-hidden="true">
+              <path d="M4 20V10M10 20V4M16 20v-7M22 20H2" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+            </svg>
+            <h3>Funcionalidades únicas</h3>
+            <p>Acesso a materiais de estudo organizados e planeamentos personalizados.</p>
+          </article>
+
+          <article class="caracteristica">
+            <svg class="icone" viewBox="0 0 24 24" aria-hidden="true">
+              <rect x="3" y="4" width="18" height="17" rx="2" fill="none" stroke="currentColor" stroke-width="2"/>
+              <path d="M3 9h18M8 2v4M16 2v4" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+              <path d="M8 13h.01M12 13h.01M16 13h.01M8 17h.01M12 17h.01" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/>
+            </svg>
+            <h3>Flexibilidade</h3>
+            <p>Adaptação dos planos de estudo às necessidades, dificuldades e disponibilidade de cada estudante.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="destinatarios" class="seccao">
+      <div class="contentor">
+        <div class="publico">
+          <h2>A quem se destina</h2>
+          <p>Esta aplicação destina-se a todos os estudantes universitários, tanto do primeiro ano como a quem tem mais dificuldade em gerir os estudos e as avaliações.</p>
+        </div>
+      </div>
+    </section>
+
   </main>
 
-  <footer class="footer">
-    <div class="container footer-main footer-main-updated">
-      <section id="fontes" class="sources-section">
-        <p class="section-kicker">04 · Referências</p>
-        <h2>Fontes</h2>
-        <ul class="source-list">
-          <li><a href="https://www.isep.ipp.pt" target="_blank" rel="noopener noreferrer">ISEP – Instituto Superior de Engenharia do Porto <span>↗</span></a></li>
-          <li><a href="https://www.ipp.pt" target="_blank" rel="noopener noreferrer">Politécnico do Porto <span>↗</span></a></li>
-          <li><a href="Documents/Relatorio_Sprint1.pdf" target="_blank" rel="noopener">Relatório do projeto <span>↗</span></a></li>
+  <footer class="rodape">
+    <div class="contentor rodape-grelha">
+
+      <section id="equipa">
+        <h2>Os Jaronas</h2>
+        <ul class="equipa">
+          <li><span class="nome">João Gonçalves</span> <span class="numero">1260993</span></li>
+          <li><span class="nome">Miguel Simões</span> <span class="numero">1261123</span></li>
+          <li><span class="nome">Ricardo Rodrigues</span> <span class="numero">1260819</span></li>
+          <li><span class="nome">João Santos</span> <span class="numero">1261219</span></li>
         </ul>
       </section>
-      <div class="footer-brand"><img src="images/Isep-logo.png" alt="Logótipo ISEP" class="footer-logo"><p>Laboratório/Projeto I (LAPR1)<br>Licenciatura em Engenharia Informática</p><p class="footer-team-label">Equipa DAB01 · Os Jaronas</p></div>
+
+      <section id="fontes">
+        <h2>Fontes</h2>
+        <ul class="fontes">
+          <li><a href="https://www.isep.ipp.pt" target="_blank" rel="noopener">ISEP – Instituto Superior de Engenharia do Porto</a></li>
+          <li><a href="https://www.ipp.pt" target="_blank" rel="noopener">Politécnico do Porto</a></li>
+          <li><a href="Documents/Relatorio_Sprint1.pdf" target="_blank">Relatório</a></li>
+        </ul>
+      </section>
+
+      <div class="rodape-isep">
+        <img src="images/Isep-logo.png" alt="Logótipo ISEP" class="logo-isep logo-rodape" style="width: 150px; height: auto;">
+        <p>Laboratório/Projeto I (LAPR1)<br>Licenciatura em Engenharia Informática</p>
+      </div>
+
     </div>
-    <div class="footer-bottom"><div class="container footer-bottom-inner"><span>© 2026 Equipa DAB01 · ISEP</span><a href="#inicio">Voltar ao topo ↑</a></div></div>
+
+    <div class="copyright">
+      <div class="contentor">
+        <p>&copy; 2026 Equipa DAB01 · ISEP. Todos os direitos reservados.</p>
+      </div>
+    </div>
   </footer>
+
 </body>
 </html>
